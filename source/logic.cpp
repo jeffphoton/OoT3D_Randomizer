@@ -246,6 +246,15 @@ namespace Logic {
   bool CanShield        = false;
   bool CanJumpslash     = false;
   bool CanUseProjectile = false;
+  
+  bool CanBootsJump	             = false;
+  bool CanDinsActorGlitch        = false;
+  bool CanShieldExplosives       = false;
+  bool CanHoverSlide	           = false;
+  bool CanHoverBoost	           = false;
+  bool CanHammerSlide	           = false;
+  bool CanQuickSpinOrTripleSlash = false;
+  bool HasCutsceneItem	         = false;
 
   //Bridge and LACS Requirements
   u8 MedallionCount          = 0;
@@ -470,6 +479,15 @@ namespace Logic {
     CanShield        = (IsAdult && (HylianShield || MirrorShield)) || (IsChild && DekuShield);
     CanJumpslash     = IsAdult || Sticks || KokiriSword;
     CanUseProjectile = HasExplosives || (IsAdult && (Bow || Hookshot)) || (IsChild && (Slingshot || Boomerang));
+    
+    CanBootsJump	            = IsAdult && Hookshot && (HoverBoots || Iron Boots);
+    CanShieldExplosives       = HasExplosives && CanShield;
+    CanHoverSlide             = IsAdult && CanShieldExplosives && HoverBoots;
+    CanHoverBoost             = IsAdult && HasExplosives && HoverBoots;
+    CanHammerSlide            = IsAdult && Hammer && HoverBoots;
+    CanQuickSpinOrTripleSlash = IsAdult || KokiriSword;
+    CanDinsActorGlitch        = BombBag && CanUse(CanUseItem::Dins_Fire) && CanQuickSpinOrTripleSlash;
+    HasCutsceneItem 	        = CanUse(CanUseItem::Farores_Wind) || Bugs || Fish || (IsAdult && ClaimCheck)) || (IsChild && (MagicBean || MagicBeanPack));
 
     //Bridge and LACS Requirements
     MedallionCount        = (ForestMedallion ? 1:0) + (FireMedallion ? 1:0) + (WaterMedallion ? 1:0) + (SpiritMedallion ? 1:0) + (ShadowMedallion ? 1:0) + (LightMedallion ? 1:0);
@@ -764,6 +782,15 @@ namespace Logic {
      CanShield        = false;
      CanJumpslash     = false;
      CanUseProjectile = false;
+     
+     CanBootsJump	             = false;
+     CanDinsActorGlitch        = false;
+     CanShieldExplosives       = false;
+     CanHoverSlide	           = false;
+     CanHoverBoost	           = false;
+     CanHammerSlide	           = false;
+     CanQuickSpinOrTripleSlash = false;
+     HasCutsceneItem	         = false;
 
      //Bridge Requirements
      HasAllStones          = false;
