@@ -4,6 +4,10 @@
 using string_view = std::string_view;
 
 extern string_view logicGlitchless;
+extern string_view logicGlitchedBeginner;
+extern string_view logicGlitchedIntermediate;
+extern string_view logicGlitchedAdvanced;
+extern string_view logicGlitchedMaster;
 extern string_view logicNoLogic;
 
 extern string_view forestOpen;
@@ -259,3 +263,24 @@ extern string_view LogicLensBotwMQDesc;
 extern string_view LogicLensGtgMQDesc;
 extern string_view LogicLensCastleMQDesc;
 extern string_view LogicSpiritTrialHookshotDesc;
+
+extern string_view LogicHookshotJumpBeginner;
+extern string_view LogicHookshotJumpIntermediate;
+extern string_view LogicHookshotJumpAdvanced;
+extern string_view LogicHookshotJumpMaster;
+
+extern string_view LogicHookshotClip;
+
+extern string_view LogicLedgeClip;
+
+extern string_view LogicLedgeCancel;
+
+extern string_view LogicMegaflipBeginner;
+extern string_view LogicMegaflipIntermediate;
+extern string_view LogicMegaflipAdvanced;
+extern string_view LogicMegaflipMaster;
+
+extern string_view LogicTripleSlashBeginner;
+extern string_view LogicTripleSlashIntermediate;
+extern string_view LogicTripleSlashAdvanced;
+extern string_view LogicTripleSlashMaster;
