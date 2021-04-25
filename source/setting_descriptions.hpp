@@ -264,23 +264,23 @@ extern string_view LogicLensGtgMQDesc;
 extern string_view LogicLensCastleMQDesc;
 extern string_view LogicSpiritTrialHookshotDesc;
 
-extern string_view LogicHookshotJumpBeginner;
-extern string_view LogicHookshotJumpIntermediate;
-extern string_view LogicHookshotJumpAdvanced;
-extern string_view LogicHookshotJumpMaster;
+extern string_view LogicHookshotJumpBeginnerDesc;
+extern string_view LogicHookshotJumpIntermediateDesc;
+extern string_view LogicHookshotJumpAdvancedDesc;
+extern string_view LogicHookshotJumpMasterDesc;
 
-extern string_view LogicHookshotClip;
+extern string_view LogicHookshotClipDesc;
 
-extern string_view LogicLedgeClip;
+extern string_view LogicLedgeClipDesc;
 
-extern string_view LogicLedgeCancel;
+extern string_view LogicLedgeCancelDesc;
 
-extern string_view LogicMegaflipBeginner;
-extern string_view LogicMegaflipIntermediate;
-extern string_view LogicMegaflipAdvanced;
-extern string_view LogicMegaflipMaster;
+extern string_view LogicMegaflipBeginnerDesc;
+extern string_view LogicMegaflipIntermediateDesc;
+extern string_view LogicMegaflipAdvancedDesc;
+extern string_view LogicMegaflipMasterDesc;
 
-extern string_view LogicTripleSlashBeginner;
-extern string_view LogicTripleSlashIntermediate;
-extern string_view LogicTripleSlashAdvanced;
-extern string_view LogicTripleSlashMaster;
+extern string_view LogicTripleSlashBeginnerDesc;
+extern string_view LogicTripleSlashIntermediateDesc;
+extern string_view LogicTripleSlashAdvancedDesc;
+extern string_view LogicTripleSlashMasterDesc;
