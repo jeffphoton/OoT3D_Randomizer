@@ -8,6 +8,20 @@
 string_view logicGlitchless           = "No glitches are required, but may require some\n" //
                                         "minor tricks. Add minor tricks to consider for\n" //
                                         "logic in Detailed Logic Settings.";               //
+string_view logicGlitchedBeginner     = "Some easy glitches may be required in order to\n" //
+                                        "complete the seed, but it is still beatable.\n"   //
+                                        "Good for players with no glitch experience.";     //
+string_view logicGlitchedIntermediate = "Some harder glitches may be required in order\n"  //
+                                        "to complete the seed, but it is still beatable\n" //
+                                        "Good for players with some glitch experience.";   //
+string_view logicGlitchedAdvanced     = "Some very hard glitches may be required in\n"     //
+                                        "order to complete the seed, but it is still\n"    //
+                                        "beatable\n"                                       //
+                                        "Good for those looking for a challenge.";         //
+string_view logicGlitchedMaster       = "Some absurdly challenging glitches may be\n"      //
+                                        "required in order to complete the seed, but it\n" //
+                                        "is still beatable.\n"                             //
+                                        "Good for true veterans of OoT3D glitching.";      //
 string_view logicNoLogic              = "Maximize randomization, All locations are\n"      //
                                         "considered available. MAY BE IMPOSSIBLE TO BEAT.";//
 /*------------------------------                                                           //
@@ -789,3 +803,9 @@ string_view LogicLensCastleMQDesc                     = "Removes the requirement
                                                         "Ganon's Castle MQ.";                              //
 string_view LogicSpiritTrialHookshotDesc              = "A precise jump off of an Armos can collect the\n" //
                                                         "highest rupee.";                                  //
+
+/*------------------------------                                                                           //
+|        HOOKSHOT JUMPS        |                                                                           //
+------------------------------*/                                                                           //
+//string_view LogicHookshotJumpBeginnerDesc             = "Enable or Disable all Detailed Logic tricks at\n" //
+                                                       // "once.";                                           //
