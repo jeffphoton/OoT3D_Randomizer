@@ -290,3 +290,10 @@ extern string_view LogicTripleSlashBeginnerDesc;
 extern string_view LogicTripleSlashIntermediateDesc;
 extern string_view LogicTripleSlashAdvancedDesc;
 extern string_view LogicTripleSlashMasterDesc;
+
+extern string_view LogicCrossColossusHandsDesc;
+extern string_view LogicMagicWithoutItemsDesc;
+extern string_view LogicOccamsStatueDesc;
+extern string_view LogicBombOcarinaItemsDesc;
+extern string_view LogicBlueFireWallMeltingDesc;
+extern string_view LogicJabuWithoutFishDesc;
