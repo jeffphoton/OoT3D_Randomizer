@@ -4,6 +4,10 @@
 using string_view = std::string_view;
 
 extern string_view logicGlitchless;
+extern string_view logicGlitchedBeginner;
+extern string_view logicGlitchedIntermediate;
+extern string_view logicGlitchedAdvanced;
+extern string_view logicGlitchedMaster;
 extern string_view logicNoLogic;
 
 extern string_view forestOpen;
@@ -259,3 +263,37 @@ extern string_view LogicLensBotwMQDesc;
 extern string_view LogicLensGtgMQDesc;
 extern string_view LogicLensCastleMQDesc;
 extern string_view LogicSpiritTrialHookshotDesc;
+
+extern string_view LogicHookshotJumpDisabledDesc;
+extern string_view LogicHookshotJumpBeginnerDesc;
+extern string_view LogicHookshotJumpIntermediateDesc;
+extern string_view LogicHookshotJumpAdvancedDesc;
+extern string_view LogicHookshotJumpMasterDesc;
+
+extern string_view LogicHookshotClipDisabledDesc;
+extern string_view LogicHookshotClipDesc;
+
+extern string_view LogicLedgeClipDisabledDesc;
+extern string_view LogicLedgeClipDesc;
+
+extern string_view LogicLedgeCancelDisabledDesc;
+extern string_view LogicLedgeCancelDesc;
+
+extern string_view LogicMegaflipDisabledDesc;
+extern string_view LogicMegaflipBeginnerDesc;
+extern string_view LogicMegaflipIntermediateDesc;
+extern string_view LogicMegaflipAdvancedDesc;
+extern string_view LogicMegaflipMasterDesc;
+
+extern string_view LogicTripleSlashDisabledDesc;
+extern string_view LogicTripleSlashBeginnerDesc;
+extern string_view LogicTripleSlashIntermediateDesc;
+extern string_view LogicTripleSlashAdvancedDesc;
+extern string_view LogicTripleSlashMasterDesc;
+
+extern string_view LogicCrossColossusHandsDesc;
+extern string_view LogicMagicWithoutItemsDesc;
+extern string_view LogicOccamsStatueDesc;
+extern string_view LogicBombOcarinaItemsDesc;
+extern string_view LogicBlueFireWallMeltingDesc;
+extern string_view LogicJabuWithoutFishDesc;

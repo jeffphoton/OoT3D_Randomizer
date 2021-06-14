@@ -8,6 +8,20 @@
 string_view logicGlitchless           = "No glitches are required, but may require some\n" //
                                         "minor tricks. Add minor tricks to consider for\n" //
                                         "logic in Detailed Logic Settings.";               //
+string_view logicGlitchedBeginner     = "Some easy glitches may be required in order to\n" //
+                                        "complete the seed, but it is still beatable.\n"   //
+                                        "Good for players with no glitch experience.";     //
+string_view logicGlitchedIntermediate = "Some harder glitches may be required in order\n"  //
+                                        "to complete the seed, but it is still beatable\n" //
+                                        "Good for players with some glitch experience.";   //
+string_view logicGlitchedAdvanced     = "Some very hard glitches may be required in\n"     //
+                                        "order to complete the seed, but it is still\n"    //
+                                        "beatable\n"                                       //
+                                        "Good for those looking for a challenge.";         //
+string_view logicGlitchedMaster       = "Some absurdly challenging glitches may be\n"      //
+                                        "required in order to complete the seed, but it\n" //
+                                        "is still beatable.\n"                             //
+                                        "Good for true veterans of OoT3D glitching.";      //
 string_view logicNoLogic              = "Maximize randomization, All locations are\n"      //
                                         "considered available. MAY BE IMPOSSIBLE TO BEAT.";//
 /*------------------------------                                                           //
@@ -789,3 +803,62 @@ string_view LogicLensCastleMQDesc                     = "Removes the requirement
                                                         "Ganon's Castle MQ.";                              //
 string_view LogicSpiritTrialHookshotDesc              = "A precise jump off of an Armos can collect the\n" //
                                                         "highest rupee.";                                  //
+
+/*------------------------------                                                                           //
+|        HOOKSHOT JUMPS        |                                                                           //
+------------------------------*/                                                                           //
+string_view LogicHookshotJumpDisabledDesc             = "Hookshot Jumps will not be required.";            //
+string_view LogicHookshotJumpBeginnerDesc             = "Easy Hookshot Jumps, both using invincibility\n"  //
+                                                        "glitch and Hover/Iron Boots may be required.";    //
+string_view LogicHookshotJumpIntermediateDesc         = "Hookshot Jumps that require higher heights or\n"  //
+                                                        "specific aerial movements may be required.";      //
+string_view LogicHookshotJumpAdvancedDesc             = "Maximum height hookshot jumps or highly\n"        //
+                                                        "specific aerial movements may be required.";      //
+string_view LogicHookshotJumpMasterDesc               = "Reaching King Dodongo's room with a Hookshot\n"   //
+                                                        "jump may be required.";                           //
+
+/*------------------------------                                                                           //
+|        HOOKSHOT CLIPS        |                                                                           //
+------------------------------*/                                                                           //
+string_view LogicHookshotClipDisabledDesc             = "Hookshot Clips will not be required.";            //
+string_view LogicHookshotClipDesc                     = "Hookshot Clips may be required.";                 //
+
+/*------------------------------                                                                           //
+|         LEDGE CLIPS          |                                                                           //
+------------------------------*/                                                                           //
+string_view LogicLedgeClipDisabledDesc                = "Ledge Clips will not be required.";               //
+string_view LogicLedgeClipDesc                        = "Ledge Clips may be required.";                    //
+
+/*------------------------------                                                                           //
+|        LEDGE CANCELS         |                                                                           //
+------------------------------*/                                                                           //
+string_view LogicLedgeCancelDisabledDesc              = "Ledge Cancels will not be required.";             //
+string_view LogicLedgeCancelDesc                      = "Ledge Cancels may be required.";                  //
+
+/*------------------------------                                                                           //
+|           MEGAFLIPS          |                                                                           //
+------------------------------*/                                                                           //
+string_view LogicMegaflipDisabledDesc                 = "Megaflips will not be required.";                 //
+string_view LogicMegaflipBeginnerDesc                 = "Very easy megaflips may be required. Note that\n" //
+                                                        "no megaflip tricks are considered very easy; as\n"//
+                                                        "such this is currently identical to Disabled.";   //
+string_view LogicMegaflipIntermediateDesc             = "Using explosives to megaflip across small and \n" //
+                                                        "medium-sized gaps may be required.";              //
+string_view LogicMegaflipAdvancedDesc                 = "Megaflips across larger gaps, from/to moving\n"   //
+                                                        "platforms, or from slants may be required.";      //
+string_view LogicMegaflipMasterDesc                   = "Highly precise megaflips or megaflips off of\n"   //
+                                                        "enemies may be required.";                        //
+
+/*------------------------------                                                                           //
+|   TRIPLE SLASH CLIPS/DIVES   |                                                                           //
+------------------------------*/                                                                           //
+string_view LogicTripleSlashDisabledDesc              = "Triple Slash clips and dives will not be\n"       //
+                                                         "required.";                                      //
+string_view LogicTripleSlashBeginnerDesc              = "Very easy Triple Slash clips and dives may be\n"  //
+                                                        "required.";                                       //
+string_view LogicTripleSlashIntermediateDesc          = "Somewhat precise Triple Slash clips and dives \n" //
+                                                        "may be required.";                                //
+string_view LogicTripleSlashAdvancedDesc              = "Very precise Triple Slash clips and dives may \n" //
+                                                        "be required.";      //
+string_view LogicTripleSlashMasterDesc                = "Triple Slash clips that require complex out of\n" //
+                                                        "bounds movement may be required.";                //

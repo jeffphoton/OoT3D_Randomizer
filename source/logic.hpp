@@ -239,6 +239,16 @@ namespace Logic {
   extern bool CanShield;
   extern bool CanJumpslash;
   extern bool CanUseProjectile;
+  
+  //Glitched logic helpers
+  extern bool CanBootsJump;
+  extern bool CanDinsActorGlitch;
+  extern bool CanShieldExplosives;
+  extern bool CanHoverSlide;
+  extern bool CanHoverBoost;
+  extern bool CanHammerSlide;
+  extern bool CanQuickSpinOrTripleSlash;
+  extern bool HasCutsceneItem;
 
   //Bridge Requirements
   extern bool HasAllStones;
